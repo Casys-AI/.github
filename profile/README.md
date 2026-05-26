@@ -1,62 +1,74 @@
 <div align="center">
 
-<img src="logo.png" alt="Casys AI" width="110" />
+<img src="logo.png" alt="Casys AI" width="96" />
 
 # Casys AI
 
-**AI agents for ERP &amp; e-invoicing**
-Hosted platforms, backed by an open MCP stack.
+**Agentic Process Engineering (APE)**
+
+**Do not start with agents. Start with process.**
+
+APE: designing AI agent systems as executable business processes — tools, roles,
+knowledge &amp; procedures, controls &amp; metrics. For enterprise AI integration.
 
 <a href="https://casys.ai">casys.ai</a> ·
+<a href="https://casys.ai/canvas">APE canvas</a> ·
 <a href="https://www.linkedin.com/showcase/casys-ai">LinkedIn</a> ·
 <a href="mailto:hello@casys.ai">hello@casys.ai</a> ·
-Taiwan 🇹🇼
+Taiwan
 
-<br/>
+<br />
+<br />
 
-<img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=flat-square" />
-<img alt="Deno" src="https://img.shields.io/badge/Deno-000000?logo=deno&logoColor=white&style=flat-square" />
-<img alt="MCP" src="https://img.shields.io/badge/Model_Context_Protocol-6E56CF?style=flat-square" />
-<img alt="MIT" src="https://img.shields.io/badge/license-MIT-3DA639?style=flat-square" />
+<a href="https://casys.ai">
+  <img alt="casys.ai status" src="https://img.shields.io/website?url=https%3A%2F%2Fcasys.ai&amp;label=casys.ai&amp;style=flat-square" />
+</a>
+<a href="https://einvoice-platform.fr">
+  <img alt="eInvoice Platform status" src="https://img.shields.io/website?url=https%3A%2F%2Feinvoice-platform.fr&amp;label=eInvoice&amp;style=flat-square" />
+</a>
+<a href="https://erp-platform.fr">
+  <img alt="ERP Platform status" src="https://img.shields.io/website?url=https%3A%2F%2Ferp-platform.fr&amp;label=ERP&amp;style=flat-square" />
+</a>
+<img alt="Model Context Protocol" src="https://img.shields.io/badge/MCP-Model_Context_Protocol-6E56CF?style=flat-square" />
+<img alt="Deno" src="https://img.shields.io/badge/Deno-000000?logo=deno&amp;logoColor=white&amp;style=flat-square" />
+<img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&amp;logoColor=white&amp;style=flat-square" />
 
 </div>
 
 ---
 
-## 🚀 Platforms
+## Public platforms
 
-Managed products that put AI agents to work on real back-office systems.
-
-| Platform | What it does |
-| --- | --- |
-| **[eInvoice Platform →](https://einvoice-platform.fr)** | French e-invoicing driven by your AI assistants (Claude, ChatGPT) over MCP — generate, validate and transmit compliant invoices through certified PA connectors. _Beta — free until June 2026._ |
-| **[ERP Platform →](https://erp-platform.fr)** | Multi-tenant MCP layer that connects enterprise ERPs to AI agents with isolated credentials and audit trails. ERPNext available, Dolibarr in progress. _Beta / pilot._ |
-
-## 🧩 Open MCP stack
-
-The building blocks behind the platforms — open source, MIT.
-
-| Repo | Description | |
+| Platform | Status | Scope |
 | --- | --- | --- |
-| **[mcp-server](https://github.com/Casys-AI/mcp-server)** | Core MCP server | ![stars](https://img.shields.io/github/stars/Casys-AI/mcp-server?style=flat-square&label=%E2%98%85) |
-| **[mcp-einvoice](https://github.com/Casys-AI/mcp-einvoice)** | MCP server for French e-invoicing — PA-agnostic adapter pattern | ![stars](https://img.shields.io/github/stars/Casys-AI/mcp-einvoice?style=flat-square&label=%E2%98%85) |
-| **[mcp-erpnext](https://github.com/Casys-AI/mcp-erpnext)** | MCP server for ERPNext / Frappe ERP — interactive UI viewers | ![stars](https://img.shields.io/github/stars/Casys-AI/mcp-erpnext?style=flat-square&label=%E2%98%85) |
+| [eInvoice Platform](https://einvoice-platform.fr) | Live · French mandate 2026 | E-invoicing platform. Process-facing invoice lifecycle tools + provider adapters. Iopole live &amp; self-serve. Other adapters onboarded with support. |
+| [ERP Platform](https://erp-platform.fr) | Live beta | MCP-driven ERP workflows. ERPNext is the most mature adapter. Dolibarr mapping underway. |
 
-## 🛠️ In development
+## Open MCP stack
 
-| Repo | Description |
+Public. MIT.
+
+| Repository | Scope | Signals |
+| --- | --- | --- |
+| [mcp-server](https://github.com/Casys-AI/mcp-server) | Core MCP server | ![stars](https://img.shields.io/github/stars/Casys-AI/mcp-server?style=flat-square) ![license](https://img.shields.io/github/license/Casys-AI/mcp-server?style=flat-square) |
+| [mcp-einvoice](https://github.com/Casys-AI/mcp-einvoice) | MCP server for French e-invoicing. PA-agnostic adapter pattern. | ![stars](https://img.shields.io/github/stars/Casys-AI/mcp-einvoice?style=flat-square) ![license](https://img.shields.io/github/license/Casys-AI/mcp-einvoice?style=flat-square) |
+| [mcp-erpnext](https://github.com/Casys-AI/mcp-erpnext) | MCP server for ERPNext / Frappe ERP. Interactive UI viewers. | ![stars](https://img.shields.io/github/stars/Casys-AI/mcp-erpnext?style=flat-square) ![license](https://img.shields.io/github/license/Casys-AI/mcp-erpnext?style=flat-square) |
+
+## In development
+
+| Repository | Scope |
 | --- | --- |
-| **[mcp-erp](https://github.com/Casys-AI/mcp-erp)** | ERP-agnostic MCP adapter layer — drop-in adapters for ERPNext, Dolibarr, and more |
-| **mcp-geomatic** _(private)_ | MCP server for geospatial operations — QGIS Server + PostGIS + GEOS (WASM). Lets AI agents display, query, analyze and edit geographic data in natural language |
+| [mcp-erp](https://github.com/Casys-AI/mcp-erp) | ERP-agnostic MCP adapter layer: ERPNext, Dolibarr, more. ![stars](https://img.shields.io/github/stars/Casys-AI/mcp-erp?style=flat-square) |
+| mcp-geomatic | Private. MCP server for geospatial operations: QGIS Server + PostGIS + GEOS (WASM), natural-language geo data ops. |
 
-## 🧪 Side projects
+## Side project
 
-| Repo | Description |
+| Repository | Scope |
 | --- | --- |
-| **[DenoClaw](https://github.com/Casys-AI/DenoClaw)** | Deno-native AI agent framework — Subhosting + Sandbox + A2A protocol. Zero Node.js deps |
+| [DenoClaw](https://github.com/Casys-AI/DenoClaw) | Deno-native AI agent framework: Subhosting + Sandbox + A2A, zero Node.js deps. ![stars](https://img.shields.io/github/stars/Casys-AI/DenoClaw?style=flat-square) |
 
 ---
 
 <div align="center">
-<sub>Built in the open · <a href="https://casys.ai">casys.ai</a></sub>
+<sub>Process artifacts, source code, governed action.</sub>
 </div>
