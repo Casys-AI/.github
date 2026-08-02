@@ -32,8 +32,8 @@ Taiwan
 
 ## Engineering chain
 
-Model-to-physics tooling. Each server runs standalone; `engineering-toolchain`
-bundles three of them into one image with the native solvers already installed.
+Model-to-physics tooling: a SysML model, CAD geometry, a mesh and a solve, a
+constraint checked against the result. Each server runs standalone.
 
 | Repository | Scope | Signals |
 | --- | --- | --- |
@@ -43,14 +43,12 @@ bundles three of them into one image with the native solvers already installed.
 | [mcp-modelica](https://github.com/Casys-AI/mcp-modelica) | OpenModelica system-level multiphysics simulation, reproducible runs. | ![stars](https://img.shields.io/github/stars/Casys-AI/mcp-modelica?style=flat-square) |
 | [mcp-onshape](https://github.com/Casys-AI/mcp-onshape) | Onshape CAD/PDM — 100 tools across 14 categories, 4 UI viewers. | ![stars](https://img.shields.io/github/stars/Casys-AI/mcp-onshape?style=flat-square) |
 | [constraint-solver](https://github.com/Casys-AI/constraint-solver) | Parametric constraints with units treated as part of the value — 2.5 kg against a 4 lb limit fails. Source-agnostic: SysML, FEA, cost models. | ![stars](https://img.shields.io/github/stars/Casys-AI/constraint-solver?style=flat-square) |
-| [engineering-toolchain](https://github.com/Casys-AI/engineering-toolchain) | One Docker image: mcp-syson + mcp-build123d + mcp-calculix, with z3, Python/OCCT, Gmsh and CalculiX bundled. No native installs. | ![stars](https://img.shields.io/github/stars/Casys-AI/engineering-toolchain?style=flat-square) |
 
 ## Business systems
 
 | Repository | Scope | Signals |
 | --- | --- | --- |
 | [mcp-erpnext](https://github.com/Casys-AI/mcp-erpnext) | ERPNext / Frappe — 120 tools across 14 categories, 7 interactive UI viewers. | ![stars](https://img.shields.io/github/stars/Casys-AI/mcp-erpnext?style=flat-square) |
-| [mcp-erp](https://github.com/Casys-AI/mcp-erp) | ERP-agnostic adapter layer — drop-in adapters for ERPNext, Dolibarr and more, meant to be embedded in a multi-tenant server. | ![stars](https://img.shields.io/github/stars/Casys-AI/mcp-erp?style=flat-square) |
 | [mcp-einvoice](https://github.com/Casys-AI/mcp-einvoice) | French e-invoicing — CII / UBL / Factur-X, PA-agnostic adapter pattern. | ![stars](https://img.shields.io/github/stars/Casys-AI/mcp-einvoice?style=flat-square) |
 
 ## Framework
