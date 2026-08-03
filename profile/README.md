@@ -30,45 +30,49 @@ Taiwan
 
 ---
 
+Status column: **Active** means it moves week to week, **Stable** that it works
+and gets touched when a dependency moves, **Paused** that nothing is planned.
+The badge below each one is the last commit, straight from GitHub.
+
 ## Engineering chain
 
 Model-to-physics tooling: a SysML model, CAD geometry, a mesh and a solve, a
 constraint checked against the result. Each server runs standalone.
 
-| Repository | Scope | Signals |
+| Repository | Scope | Status |
 | --- | --- | --- |
-| [mcp-syson](https://github.com/Casys-AI/mcp-syson) | SysML v2 MBSE through SysON — 29 tools, AQL queries, requirements tracing, 4 UI viewers, docker-compose included. | ![stars](https://img.shields.io/github/stars/Casys-AI/mcp-syson?style=flat-square) |
-| [mcp-build123d](https://github.com/Casys-AI/mcp-build123d) | Parametric CAD as code (Python/OCCT) — exact mass properties, STEP/STL/GLTF export. | ![stars](https://img.shields.io/github/stars/Casys-AI/mcp-build123d?style=flat-square) |
-| [mcp-calculix](https://github.com/Casys-AI/mcp-calculix) | FEA — Gmsh meshing plus CalculiX linear static solve on STEP files. Faces designated by bounding box, mm/N/MPa. | ![stars](https://img.shields.io/github/stars/Casys-AI/mcp-calculix?style=flat-square) |
-| [mcp-modelica](https://github.com/Casys-AI/mcp-modelica) | OpenModelica system-level multiphysics simulation, reproducible runs. | ![stars](https://img.shields.io/github/stars/Casys-AI/mcp-modelica?style=flat-square) |
-| [mcp-onshape](https://github.com/Casys-AI/mcp-onshape) | Onshape CAD/PDM — 100 tools across 14 categories, 4 UI viewers. | ![stars](https://img.shields.io/github/stars/Casys-AI/mcp-onshape?style=flat-square) |
-| [constraint-solver](https://github.com/Casys-AI/constraint-solver) | Parametric constraints with units treated as part of the value — 2.5 kg against a 4 lb limit fails. Source-agnostic: SysML, FEA, cost models. | ![stars](https://img.shields.io/github/stars/Casys-AI/constraint-solver?style=flat-square) |
+| [mcp-syson](https://github.com/Casys-AI/mcp-syson) | SysML v2 MBSE through SysON — 29 tools, AQL queries, requirements tracing, 4 UI viewers, docker-compose included. | **Active**<br />![last commit](https://img.shields.io/github/last-commit/Casys-AI/mcp-syson?style=flat-square&label=) |
+| [mcp-build123d](https://github.com/Casys-AI/mcp-build123d) | Parametric CAD as code (Python/OCCT) — exact mass properties, STEP/STL/GLTF export. | **Active**<br />![last commit](https://img.shields.io/github/last-commit/Casys-AI/mcp-build123d?style=flat-square&label=) |
+| [mcp-calculix](https://github.com/Casys-AI/mcp-calculix) | FEA — Gmsh meshing plus CalculiX linear static solve on STEP files. Faces designated by bounding box, mm/N/MPa. | **Active**<br />![last commit](https://img.shields.io/github/last-commit/Casys-AI/mcp-calculix?style=flat-square&label=) |
+| [mcp-modelica](https://github.com/Casys-AI/mcp-modelica) | OpenModelica system-level multiphysics simulation, reproducible runs. | **Active**<br />![last commit](https://img.shields.io/github/last-commit/Casys-AI/mcp-modelica?style=flat-square&label=) |
+| [mcp-onshape](https://github.com/Casys-AI/mcp-onshape) | Onshape CAD/PDM — 100 tools across 14 categories, 4 UI viewers. | **Active**<br />![last commit](https://img.shields.io/github/last-commit/Casys-AI/mcp-onshape?style=flat-square&label=) |
+| [constraint-solver](https://github.com/Casys-AI/constraint-solver) | Parametric constraints with units treated as part of the value — 2.5 kg against a 4 lb limit fails. Satisfiability and optimisation through z3. Source-agnostic: SysML, FEA, cost models. | **Active**<br />![last commit](https://img.shields.io/github/last-commit/Casys-AI/constraint-solver?style=flat-square&label=) |
 
 ## Business systems
 
-| Repository | Scope | Signals |
+| Repository | Scope | Status |
 | --- | --- | --- |
-| [mcp-erpnext](https://github.com/Casys-AI/mcp-erpnext) | ERPNext / Frappe — 120 tools across 14 categories, 7 interactive UI viewers. | ![stars](https://img.shields.io/github/stars/Casys-AI/mcp-erpnext?style=flat-square) |
-| [mcp-einvoice](https://github.com/Casys-AI/mcp-einvoice) | French e-invoicing — CII / UBL / Factur-X, PA-agnostic adapter pattern. | ![stars](https://img.shields.io/github/stars/Casys-AI/mcp-einvoice?style=flat-square) |
+| [mcp-erpnext](https://github.com/Casys-AI/mcp-erpnext) | ERPNext / Frappe — 120 tools across 14 categories, 7 interactive UI viewers. | **Active**<br />![last commit](https://img.shields.io/github/last-commit/Casys-AI/mcp-erpnext?style=flat-square&label=) |
+| [mcp-einvoice](https://github.com/Casys-AI/mcp-einvoice) | French e-invoicing — CII / UBL / Factur-X, PA-agnostic adapter pattern. | **Stable**<br />![last commit](https://img.shields.io/github/last-commit/Casys-AI/mcp-einvoice?style=flat-square&label=) |
 
 ## Framework
 
-| Repository | Scope | Signals |
+| Repository | Scope | Status |
 | --- | --- | --- |
-| [mcp-server](https://github.com/Casys-AI/mcp-server) | Casys MCP Platform — middleware pipeline, OAuth2, concurrency control, backpressure, observability, interactive UIs. Published on JSR and npm. | ![stars](https://img.shields.io/github/stars/Casys-AI/mcp-server?style=flat-square) |
+| [mcp-server](https://github.com/Casys-AI/mcp-server) | Casys MCP Platform — middleware pipeline, OAuth2, concurrency control, backpressure, observability, interactive UIs. Published on JSR and npm. | **Active**<br />![last commit](https://img.shields.io/github/last-commit/Casys-AI/mcp-server?style=flat-square&label=) |
 
 ## Extraction toolkits
 
-| Repository | Scope | Signals |
+| Repository | Scope | Status |
 | --- | --- | --- |
-| [ecommerce-platform-scraper](https://github.com/Casys-AI/ecommerce-platform-scraper) | Deno scraping toolkit for e-commerce storefronts, organised by platform — SHOPLINE / Cyberbiz / BV SHOP adapters, multimodal LLM + OCR extraction. Domain-agnostic. | ![stars](https://img.shields.io/github/stars/Casys-AI/ecommerce-platform-scraper?style=flat-square) |
-| [formation-platform-scraper](https://github.com/Casys-AI/formation-platform-scraper) | Teachizy-hosted course platforms — dual auth, content extraction, Whisper transcription, link qualification, pedagogical knowledge graph. MCP Playwright embedded, nothing tenant-hardcoded. | ![stars](https://img.shields.io/github/stars/Casys-AI/formation-platform-scraper?style=flat-square) |
+| [ecommerce-platform-scraper](https://github.com/Casys-AI/ecommerce-platform-scraper) | Deno scraping toolkit for e-commerce storefronts, organised by platform — SHOPLINE / Cyberbiz / BV SHOP adapters, multimodal LLM + OCR extraction. Domain-agnostic. | **Active**<br />![last commit](https://img.shields.io/github/last-commit/Casys-AI/ecommerce-platform-scraper?style=flat-square&label=) |
+| [formation-platform-scraper](https://github.com/Casys-AI/formation-platform-scraper) | Teachizy-hosted course platforms — dual auth, content extraction, Whisper transcription, link qualification, pedagogical knowledge graph. Playwright driven in-process, nothing tenant-hardcoded. | **Active**<br />![last commit](https://img.shields.io/github/last-commit/Casys-AI/formation-platform-scraper?style=flat-square&label=) |
 
 ## Side project
 
-| Repository | Scope | Signals |
+| Repository | Scope | Status |
 | --- | --- | --- |
-| [DenoClaw](https://github.com/Casys-AI/DenoClaw) | Deno-native AI agent framework — Subhosting + Sandbox + A2A protocol, zero Node.js deps. | ![stars](https://img.shields.io/github/stars/Casys-AI/DenoClaw?style=flat-square) |
+| [DenoClaw](https://github.com/Casys-AI/DenoClaw) | Deno-native AI agent framework — Subhosting + Sandbox + A2A protocol, zero Node.js deps. | **Paused**<br />![last commit](https://img.shields.io/github/last-commit/Casys-AI/DenoClaw?style=flat-square&label=) |
 
 ---
 
