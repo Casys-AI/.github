@@ -28,6 +28,11 @@ results that can move across models, solvers, agents, and teams.
 
 `system architecture → geometry → physics → measured checks → reviewable evidence`
 
+That chain runs end to end in
+**[casys-digital-thread](https://github.com/Casys-AI/casys-digital-thread)**,
+where one project holds the brief, the artifacts, and the evidence behind each
+answer.
+
 ### Architecture and geometry
 
 - **[mcp-syson](https://github.com/Casys-AI/mcp-syson)** — SysON-backed SysML v2
