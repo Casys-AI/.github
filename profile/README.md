@@ -67,7 +67,7 @@ answer.
 
 ## Build and operate
 
-- **[mcp-server](https://github.com/Casys-AI/mcp-server)** — a TypeScript
+- **[mcp-platform](https://github.com/Casys-AI/mcp-platform)** — a TypeScript
   framework for MCP middleware, OAuth integration, concurrency, observability,
   and MCP Apps.
 - **[mcp-erpnext](https://github.com/Casys-AI/mcp-erpnext)** — ERPNext/Frappe
