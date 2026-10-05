@@ -4,7 +4,7 @@
 
 # Casys AI
 
-**Agentic Process Engineering.**
+**Complex Adaptive Systems · Consulting and education to design and govern processes with AI**
 
 Design processes, define what you delegate to agentic operators,
 and keep control over decisions and their effects.
@@ -18,8 +18,12 @@ and keep control over decisions and their effects.
 
 ---
 
-Casys is dedicated to **Agentic Process Engineering (APE)**: its foundations,
-pattern library, practical use cases, and teaching.
+Casys means **Complex Adaptive Systems**. Through Casys, Erwan L. Pesle offers
+consulting and education on the design and governance of processes with AI.
+
+**Agentic Process Engineering (APE)** is an approach developed under Casys.
+Its public resources include foundations, a pattern library, practical use cases,
+and the handbook.
 
 - **[Book](https://casys.ai/agentic-process-engineering/book)** — the APE
   handbook, available to read online and download as a PDF.
@@ -34,5 +38,5 @@ Created by **[Erwan L. Pesle](https://github.com/superWorldSavior)**, based in T
 ---
 
 <div align="center">
-<sub>Agentic Process Engineering · <a href="mailto:hello@casys.ai">hello@casys.ai</a></sub>
+<sub>Complex Adaptive Systems · <a href="mailto:hello@casys.ai">hello@casys.ai</a></sub>
 </div>
