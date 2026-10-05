@@ -21,9 +21,12 @@ and keep control over decisions and their effects.
 Casys means **Complex Adaptive Systems**. Through Casys, Erwan L. Pesle offers
 consulting and education on the design and governance of processes with AI.
 
-**Agentic Process Engineering (APE)** is an approach developed under Casys.
-Its public resources include foundations, a pattern library, practical use cases,
-and the handbook.
+Through Casys, we contribute to **Agentic Process Engineering (APE)**, the
+discipline of designing and governing processes in which decision authority
+can be delegated to agentic operators.
+
+Our contributions include foundational resources, a pattern library, practical
+use cases, and the handbook.
 
 - **[Book](https://casys.ai/agentic-process-engineering/book)** — the APE
   handbook, available to read online and download as a PDF.
@@ -33,7 +36,7 @@ and the handbook.
 - **[Teaching](https://casys.ai/teaching)** — courses and workshops built
   around concrete processes and practical cases.
 
-Created by **[Erwan L. Pesle](https://github.com/superWorldSavior)**, based in Taiwan.
+Casys was founded by **[Erwan L. Pesle](https://github.com/superWorldSavior)**, based in Taiwan.
 
 ---
 
